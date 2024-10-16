@@ -19,11 +19,11 @@ int currentSelection = 0; // Текущая выбранная строка ме
 const int menuItems = 3;  // Количество пунктов меню
 
 // Wi-Fi данные
-const char* ssid = "Summator WiFi"; // Замените на имя вашей сети
-const char* password = "YaseminBerkman"; // Замените на пароль вашей сети
+const char* ssid = ""; // 
+const char* password = "";
 
 // URL вашего API
-const char* apiUrl = "http://10.0.0.34:8000/check"; // Замените на ваш URL API
+const char* apiUrl = "http://x.x.x.x:8000/check"; // URL API
 
 void setup() {
   // Инициализация I2C на ESP32
