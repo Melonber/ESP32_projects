@@ -1,6 +1,6 @@
 ;Platformio.ini:
 
-[env:esp32-c3-devkitc-02]
+[env:esp32-c3-devkitc-02]\n
 platform = espressif32
 board = esp32-c3-devkitc-02
 upload_port = /dev/cu.SLAB_USBtoUART
